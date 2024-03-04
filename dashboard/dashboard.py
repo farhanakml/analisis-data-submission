@@ -6,7 +6,7 @@ import seaborn as sns
 import streamlit as st
 
 # Mengread dataset dari file hasil pemrosesan
-df = pd.read_csv("main_data.csv")
+df = pd.read_csv("dashboard/main_data.csv")
 
 # Menyiapkan fungsi untuk penampilan dataset setiap kondisi
 # Dataset pertanggal
